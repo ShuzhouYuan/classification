@@ -110,14 +110,13 @@ This page contains the classification results for the various algorithms, letter
 
 
 ### Confusion matrix
-Confusion matrix, without normalization
-[[ 874   24    2    0   16    0   82]
- [  28  812    0    0  124    0   26]
- [  23    8 3232    8    5    2   16]
- [   4    1    3 2193    0  223    2]
- [  16  143    3    0  597    1   46]
- [   0    0    0  102    0 6746    0]
- [  32   12    1    0   18    1 2158]]
+	[[ 874   24    2    0   16    0   82]
+ 	[  28  812    0    0  124    0   26]
+ 	[  23    8 3232    8    5    2   16]
+ 	[   4    1    3 2193    0  223    2]
+ 	[  16  143    3    0  597    1   46]
+ 	[   0    0    0  102    0 6746    0]
+ 	[  32   12    1    0   18    1 2158]]
 			  
 ### Confusion Matrix (img)
 
