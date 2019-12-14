@@ -126,46 +126,45 @@ This page contains the classification results for the various algorithms, letter
 ![Confusion matrix](img/results_LogisticRegression_Authorbigramm.jpg)
 
 ## Classifier: Perceptron with single words
-- Algorithm: Scikit-learn perceptron
+- Algorithm: Scikit-learn logistic regression
 - Features: single words
-- Reported by: Stefan Langer
+- Reported by: Shuzhou Yuan, Shanshan Bai
 
 
 ### Performance: 
 
-- Seconds used for training: 66
-- Seconds used for classification: 18
+- Seconds used for training: 11
+- Seconds used for classification: 0.01
 
 
 ### Classification report
+                            precision    recall  f1-score   support
 
-                                precision    recall  f1-score   support
+               Franz Kafka       0.92      0.86      0.89      1051
+        Friedrich Schiller       0.80      0.81      0.80       978
+              Henrik Ibsen       1.00      0.99      0.99      3188
+               James Joyce       0.95      0.90      0.92      2500
+	Johann Wolfgang von Goethe       0.76      0.76      0.76       803
+            Virginia Woolf       0.97      0.98      0.97      6871
+             Wilhelm Busch       0.93      0.96      0.95      2193
 
-                   Franz Kafka       0.98      0.82      0.89       280
-            Friedrich Schiller       0.66      0.91      0.76       266
-                  Henrik Ibsen       0.99      0.99      0.99       897
-                   James Joyce       0.93      0.93      0.93       682
-    Johann Wolfgang von Goethe       0.78      0.64      0.71       228
-                Virginia Woolf       0.98      0.98      0.98      1901
-                 Wilhelm Busch       0.95      0.94      0.95       627
-
-                      accuracy                           0.94      4881
-                     macro avg       0.90      0.89      0.89      4881
-                  weighted avg       0.95      0.94      0.94      4881
+                 micro avg       0.94      0.94      0.94     17584
+                 macro avg       0.90      0.89      0.90     17584
+              weighted avg       0.94      0.94      0.94     17584
 
 
  
 ### Confusion matrix: 
 
-	[[ 230   21    1    0    8    0   20]
-	 [   0  241    0    0   22    0    3]
-	 [   0    6  886    2    2    0    1]
-	 [   0    0    1  637    0   44    0]
-	 [   0   78    0    0  146    0    4]
-	 [   0    0    1   44    0 1856    0]
-	 [   4   21    2    0    8    0  592]]
+	[[ 907   25    3    0   25    0   91]
+ 	[  20  790    0    0  143    0   25]
+ 	[   8   11 3143    5    4    3   14]
+ 	[   2    0    4 2253    2  238    1]
+ 	[  11  147    1    0  610    1   33]
+ 	[   0    0    0  125    0 6745    1]
+ 	[  43   19    1    0   16    0 2114]]
 	 
 ### Confusion Matrix (img)
 
-![Confusion matrix](img/results_Perceptron_AuthorsDefault_Settings.jpg)
+![Confusion matrix](img/results_LogisticRegression_Authorsingleword.jpg)
 
