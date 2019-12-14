@@ -93,33 +93,33 @@ This page contains the classification results for the various algorithms, letter
 
 - Seconds used for training: 80
 - Seconds used for classification: 0.05
-                            
-                            precision    recall  f1-score   support
+        
+	
+### Classification report
 
-               Franz Kafka       0.90      0.88      0.89      1017
-        Friedrich Schiller       0.81      0.81      0.81       978
-              Henrik Ibsen       1.00      0.98      0.99      3209
-               James Joyce       0.96      0.88      0.92      2459
-Johann Wolfgang von Goethe       0.77      0.76      0.76       817
-            Virginia Woolf       0.96      0.99      0.97      6872
-             Wilhelm Busch       0.93      0.96      0.95      2232
+                                               precision    recall  f1-score   support
 
-                 micro avg       0.94      0.94      0.94     17584
-                 macro avg       0.90      0.89      0.90     17584
-              weighted avg       0.94      0.94      0.94     17584
+               			Franz Kafka       0.90      0.88      0.89      1017
+        		 Friedrich Schiller       0.81      0.81      0.81       978
+             		       Henrik Ibsen       1.00      0.98      0.99      3209
+                                James Joyce       0.96      0.88      0.92      2459
+	         Johann Wolfgang von Goethe       0.77      0.76      0.76       817
+                             Virginia Woolf       0.96      0.99      0.97      6872
+                              Wilhelm Busch       0.93      0.96      0.95      2232
 
-
-
+                                  micro avg       0.94      0.94      0.94     17584
+                                  macro avg       0.90      0.89      0.90     17584
+                               weighted avg       0.94      0.94      0.94     17584
 
 
 ### Confusion matrix
-	[[ 874   24    2    0   16    0   82]
- 	[  28  812    0    0  124    0   26]
- 	[  23    8 3232    8    5    2   16]
- 	[   4    1    3 2193    0  223    2]
- 	[  16  143    3    0  597    1   46]
- 	[   0    0    0  102    0 6746    0]
- 	[  32   12    1    0   18    1 2158]]
+	[[ 900   18    0    0   28    0   71]
+ 	[  24  797    0    0  125    0   32]
+ 	[  10   10 3150    6   10    4   19]
+ 	[   3    0    4 2161    0  289    2]
+ 	[  24  140    0    0  618    1   34]
+ 	[   0    0    0   94    0 6778    0]
+ 	[  39   19    1    0   26    0 2147]]
 			  
 ### Confusion Matrix (img)
 
