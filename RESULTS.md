@@ -125,7 +125,7 @@ This page contains the classification results for the various algorithms, letter
 
 ![Confusion matrix](img/results_LogisticRegression_Authorbigramm.jpg)
 
-## Classifier: Perceptron with single words
+## Classifier: Logistic Regression with single words
 - Algorithm: Scikit-learn logistic regression
 - Features: single words
 - Reported by: Shuzhou Yuan, Shanshan Bai
