@@ -99,8 +99,7 @@ This page contains the classification results for the various algorithms, letter
                Franz Kafka       0.89      0.88      0.89       998
         Friedrich Schiller       0.81      0.82      0.82       990
               Henrik Ibsen       1.00      0.98      0.99      3294
-               James Joyce       0.95      0.90      0.93      2426
-Johann Wolfgang von Goethe       0.79      0.74      0.76       806
+               James Joyce       0.95      0.90      0.93      2426								Johann Wolfgang von Goethe       0.79      0.74      0.76       806
             Virginia Woolf       0.97      0.99      0.98      6848
              Wilhelm Busch       0.93      0.97      0.95      2222
 
