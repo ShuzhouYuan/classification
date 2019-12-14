@@ -96,20 +96,20 @@ This page contains the classification results for the various algorithms, letter
         
 	
 ### Classification report
+                            precision    recall  f1-score   support
 
-                                               precision    recall  f1-score   support
+               Franz Kafka       0.90      0.88      0.89      1017
+        Friedrich Schiller       0.81      0.81      0.81       978
+              Henrik Ibsen       1.00      0.98      0.99      3209
+               James Joyce       0.96      0.88      0.92      2459
+	Johann Wolfgang von Goethe       0.77      0.76      0.76       817
+            Virginia Woolf       0.96      0.99      0.97      6872
+             Wilhelm Busch       0.93      0.96      0.95      2232
 
-               			Franz Kafka       0.90      0.88      0.89      1017
-        		 Friedrich Schiller       0.81      0.81      0.81       978
-             		       Henrik Ibsen       1.00      0.98      0.99      3209
-                                James Joyce       0.96      0.88      0.92      2459
-	         Johann Wolfgang von Goethe       0.77      0.76      0.76       817
-                             Virginia Woolf       0.96      0.99      0.97      6872
-                              Wilhelm Busch       0.93      0.96      0.95      2232
+                 micro avg       0.94      0.94      0.94     17584
+                 macro avg       0.90      0.89      0.90     17584
+              weighted avg       0.94      0.94      0.94     17584
 
-                                  micro avg       0.94      0.94      0.94     17584
-                                  macro avg       0.90      0.89      0.90     17584
-                               weighted avg       0.94      0.94      0.94     17584
 
 
 ### Confusion matrix
